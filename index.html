@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elastic Beanstalk</title>
+  </head>
+  <body>
+    <script>
+      var AWS = require("aws-sdk");
+
+      function onClick(event) {
+        console.log(event);
+        console.log('invokde lambda');
+      }
+    </script>
+    <div>
+      <p>Elastic beanstalk</p>
+      <button class="btn">Invoke lambda</button>
+    </div>
+  </body>
+</html>
